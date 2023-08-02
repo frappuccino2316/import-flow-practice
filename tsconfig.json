@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5", // 大事
+    "declaration": true, // 大事
+    "declarationMap": true,
+    "sourceMap": true, // 大事
+    "lib": ["dom", "ES2018"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*"], // 大事
+  "exclude": ["dist", "node_modules"]
+}

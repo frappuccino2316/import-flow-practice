@@ -1,0 +1,16 @@
+{
+  "name": "sech",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "tsc src/index.ts --module commonjs --outDir ./dist-cjs && node dist-cjs/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "ts-node": "^10.9.1"
+  }
+}
